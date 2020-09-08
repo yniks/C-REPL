@@ -1,0 +1,26 @@
+{
+  "name": "c-rpl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "repl": "node --experimental-repl-await"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "cli-highlight": "^2.1.4",
+    "execa": "^4.0.3",
+    "prettier": "^2.1.1",
+    "resume_inquirer1": "^1.0.0",
+    "talk-to-gdbmi": "git+ssh://git@github.com/yniks/talk-to-gdb-mi.git",
+    "terminal-kit": "^1.43.0",
+    "tmp": "^0.2.1",
+    "yargs": "^15.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
